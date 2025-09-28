@@ -1,0 +1,2 @@
+# Pipeline YAML template here.
+# Product pipelines have init, plan, apply and destroy stages.
