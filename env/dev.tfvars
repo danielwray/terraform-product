@@ -1,0 +1,6 @@
+location    = "eastus"
+data_center = "na01"
+name        = "example"
+environment = "dev"
+region      = "na"
+version     = "1.0.0"
