@@ -285,8 +285,7 @@ resource "random_password" "postgres_admin" {
 
 # PostgreSQL Flexible Server
 module "postgresql_flexible_server" {
-  source  = "Azure/avm-res-dbforpostgresql-flexibleserver/azurerm"
-  version = "~> 0.2.0"
+  source  = "Azure/avm-res-dbforpostgresql-flexibleserver/azurerm?ref=0.2.0"
 
   name                = format("psql-%s-%s-%s", var.environment, var.data_center, var.name)
   location            = var.location
